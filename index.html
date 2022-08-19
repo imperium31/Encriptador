@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>encriptador</title>
+        <link rel="stylesheet" href="resources/css/style.css">
+    </head>
+    <body>
+        <header>
+            <h1> <img src="imagenes/Vector.png" id="logo"></h1>
+        </header>
+        
+        <main>
+            <div class="enviartexto">
+                <input type="text" id="contenido" class="contenidocaja" placeholder="Ingresar texto">
+                <input type="button" onclick="enviodato()" value="encriptar" id="btn1" class="btn1" >
+                <input type="button" onclick = "enviodato2()" value="desencriptar" id="btn2" class="btn2">
+                <br>
+
+            </div>
+            
+            <div class="receptor">
+                <input type="text" id="receptor" readonly ='readonly' class="receptorcaja">
+                <input type="button" onclick ="copiatexto()" value="copiar" id="copiador" class="botoncopia">
+            </div>
+        </main>
+
+        <script text="text/javascript" src="resources/js/script.js"></script>
+    </body>
+</html>

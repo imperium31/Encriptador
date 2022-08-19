@@ -1,0 +1,92 @@
+html{
+    background-color: #E5E5E5;;
+}
+
+header{
+    margin-top: 30px;
+    margin-left: 40px;
+
+}
+
+.enviartexto{
+    position: relative;
+    width: 600px;
+    height: 500px;
+    float: left;
+    margin-left: 150px;
+}
+
+.receptor{
+    position: relative;
+    background-color: white;
+    width: 400px;
+    height: 500px;
+    float: right;
+    margin-right: 100px;
+    border-radius: 30px;
+}
+
+.contenidocaja{
+    background-color: transparent;
+    position: absolute;
+    width: 500px;
+    height: 48px;
+    left: 40px;
+    top: 120px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    border: transparent;
+}
+
+.receptorcaja{
+    position: absolute;
+    width: 350px;
+    height: 300px;
+    top: 20px;
+    left: 20px;
+    border-radius: 20px;
+    background-color: transparent;
+    border: transparent;
+
+}
+
+.botoncopia{
+    position: absolute;
+    left: 100px;
+    top: 400px;
+    width: 200px;
+    height: 67px;
+    border-radius: 24px;
+    background: whitesmoke;
+    color: darkblue;
+    border-color: cornflowerblue;
+}
+.btn1{
+    position: absolute;
+    padding: 24px;
+    left: 30px;
+    top: 400px;
+    width: 200px;
+    height: 67px;
+    gap: 8px;
+    background: #0A3871;
+    border-radius: 24px;
+    color: white;
+    border: cornflowerblue;
+}
+
+.btn2{
+    position: absolute;
+    padding: 24px;
+    left: 330px;
+    top: 400px;
+    width: 200px;
+    height: 67px;
+    gap: 8px;
+    background: #D8DFE8;
+    border-radius: 24px;
+    color: darkblue;
+    border-color: cornflowerblue;
+}
